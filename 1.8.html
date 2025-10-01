@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <script>
+        var surname = "Карамзин";
+        var name = "Виктор";
+        var patronymic = "Геннадьевич";
+        var occupation = "Преподаватель специальных дисциплин";
+        var degree = "Высшее";
+        var category = "Первая";
+        var education = "Московский государственный институт электронной техники (технический университет)";
+        var discipline = "Информатика";
+        var note = "";
+    </script>
+</head>
+<body>
+    <div>
+        <script>
+            document.write("<h2>" + surname + " " + name + " " + patronymic + "</h2>");
+            document.write("<p><strong>Должность:</strong> " + occupation + ".</p>");
+            document.write("<p><strong>Уровень образования:</strong> " + degree + ".</p>");
+            document.write("<p><strong>Категория:</strong> " + category + ".</p>");
+            document.write("<p><strong>Образование:</strong> " + education + ".</p>");
+            document.write("<p><strong>Дисциплина:</strong> " + discipline + ".</p>");
+            if (note !== "") {
+                document.write("<p><strong>Примечание:</strong> " + note + "</p>");
+            }
+        </script>
+    </div>
+</body>
+</html>
